@@ -3,36 +3,21 @@
 <html>
     <head>
         <title>Linksammlung</title>
-        <style> 
-            .besonders{
-                background-color: red;
 
-            }
-
-            .flex{
-                display: flex;
-            }
-
-            .Zentriert{
-                text-align: center;
-            }
-
-            .font{
-                font-family: Arial, Helvetica, sans-serif
-
-            }
-            
-        </style>
+        <link rel="stylesheet" href="style.css"/>
 
     </head>
 
-    <body>
+    <body id="b">
         <header class="Zentriert besonders">
           <h1>Linksammlung</h1>
         </header>
         
 
         <main>
+
+            <button class="Zentriert" onclick="changeColor()">Ändere die Farbe</button>
+
             <h2 class="Zentriert">Suchmaschinen</h2>
 
             <a href="https://www.google.com" class="Zentriert">Google</a>
@@ -42,13 +27,16 @@
             <br>
             <br>
             <a href="https://www.aol.de/" class="Zentriert">AOL</a>
-
-
-            <p class="font"></p>
-            <p></p>
-
-            <p class="font"></p>
-            <p></p>
+            <br>
+            <br>
+            <a href="https://duckduckgo.com/" class="Zentriert">DuckDuckGo</a>
+            <br>
+            <br>
+            <a href="https://yahoo.com" class="Zentriert">Yahoo!</a>
+            <br>
+            <br>
+            <br>
+            <h2 class="Zentriert">Soziale Medien</h2>
         </main>
 
  
@@ -57,6 +45,7 @@
         </footer>
 
 
+        <script src="main.js"></script>
     </body>
 
 
